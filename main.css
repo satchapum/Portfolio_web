@@ -4,6 +4,45 @@ body {
     overflow-x: hidden;
 }
 
+#gamebgcolor {
+    background-color: #9DB2BF;
+}
+
+#gamebfontcolor {
+    color: #27374D;
+}
+
+#gamebfontcolor2 {
+    font-size: 500%;
+    color: #9DB2BF;
+}
+
+#gamebfontcolor2:visited {
+    color: #9DB2BF
+}
+
+#gamebfontcolor2:hover {
+    color: #526D82;
+}
+
+#gamebfontheader {
+    font-size: 400%;
+    color: #27374D;
+}
+
+#gamebfontdoc {
+    font-size: 200%;
+    color: #27374D;
+}
+
+a:visited {
+    color: #79AC78;
+}
+
+a:hover {
+    color: #618264;
+}
+
 span {
     color: #79AC78;
     display: inline-block;
@@ -30,12 +69,18 @@ a:hover {
 }
 
 h2 {
-    
     font-size: 150%;
 }
 
 li {
     font-size: 120%;
+}
+
+#gameimage {
+    border-radius: 1%;
+    width: 110%;
+
+    object-fit: cover;
 }
 
 #myskillfont {
@@ -83,7 +128,6 @@ li {
 }
 
 #introduction_picture {
-
     grid-column: 1 / span 1;
 }
 
@@ -101,6 +145,7 @@ li {
 }
 
 #skill {
+    border-color: #27374D;
     margin-right: 10%;
     margin-top: -11%;
     grid-column: 3 / span 1;
@@ -123,7 +168,16 @@ li {
     grid-column: 1 / span 3;
     height: 100%;
     margin-left: -3%;
+}
+#footergame {
+    background-color: #27374D;
+    grid-column: 1 / span 3;
+    height: 100%;
+    margin-left: -3%;
+}
 
+#footergame > div{
+    text-align:center;
 }
 
 #footer>h2 {
@@ -137,10 +191,14 @@ li {
 .flex_container {
     display: flex;
     margin-left: -1.7%;
-
 }
 
 .flex_container>div {
     margin-left: 30px;
     margin-bottom: 10px;
+}
+
+.flex_container_game {
+    display: flex;
+    gap: 10px;
 }
