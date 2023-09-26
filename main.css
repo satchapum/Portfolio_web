@@ -11,6 +11,8 @@ span {
 }
 
 fieldset {
+    display: inline-block;
+    height: 100%;
     border-color: #618264;
     border-radius: 1%;
 }
@@ -28,6 +30,7 @@ a:hover {
 }
 
 h2 {
+    
     font-size: 150%;
 }
 
@@ -68,7 +71,7 @@ li {
 
 #header {
     margin-top: -2%;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 1;
 }
 
 #paddingHeading {
@@ -110,9 +113,9 @@ li {
 }
 
 #allassignment {
-    margin-top: -16%;
+    margin-top: -11%;
     margin-left: 6%;
-    grid-column: 2 / span 1;
+    grid-column: 2 / span 2;
 }
 
 #footer {
