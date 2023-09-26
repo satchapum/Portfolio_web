@@ -1,7 +1,7 @@
 body {
     background-color: #D0E7D2;
     margin-inline-start: 20px;
-    overflow-x: hidden;
+
 }
 
 #gamebgcolor {
@@ -98,7 +98,7 @@ li {
 
 #brazilpicure {
     border-radius: 50%;
-    width: 120%;
+    width: 100%;
     height: 75%;
     object-fit: cover;
 }
@@ -169,6 +169,7 @@ li {
     height: 100%;
     margin-left: -3%;
 }
+
 #footergame {
     background-color: #27374D;
     grid-column: 1 / span 3;
@@ -176,8 +177,8 @@ li {
     margin-left: -3%;
 }
 
-#footergame > div{
-    text-align:center;
+#footergame>div {
+    text-align: center;
 }
 
 #footer>h2 {
@@ -202,3 +203,105 @@ li {
     display: flex;
     gap: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 45% 50%;
+        grid-gap: 10px;
+    }
+
+    .grid-container>div {
+        color: #79AC78;
+        font-size: 100%;
+    }
+
+    #header {
+        margin-top: -2%;
+        grid-column: 1 / span 1;
+    }
+
+    #paddingHeading {
+        padding-left: 5%;
+    }
+
+    #header>u {
+        font-size: 300%;
+    }
+
+    #introduction_picture {
+        grid-column: 1 / span 2;
+    }
+
+    #introduction {
+        
+        grid-column: 1 / span 2;
+    }
+
+    #introduction>h2 {
+        font-size: 300%;
+    }
+
+    #introduction>h3 {
+        font-size: 200%;
+    }
+
+    #skill {
+        border-color: #27374D;
+        grid-column: 1 / span 1;
+    }
+
+
+    #aboutme {
+        margin-top: -1%;
+        margin-left: -6%;
+        grid-column: 2 / span 1;
+    }
+
+    #allassignment {
+        margin-top: -150%;
+        margin-left: -15%;
+        grid-column: 2 / span 1;
+    }
+
+    #footer {
+        background-color: #618264;
+        grid-column: 1 / span 2;
+        height: 100%;
+        margin-left: -3%;
+    }
+
+    #footergame {
+        background-color: #27374D;
+        grid-column: 1 / span 2;
+        height: 100%;
+        margin-left: -3%;
+    }
+
+    #footergame>div {
+        text-align: center;
+    }
+
+    #footer>h2 {
+        margin-left: 4%;
+    }
+
+    #footer>ul {
+        margin-left: 3%;
+    }
+    .flex_container {
+        display: flex;
+        margin-left: -1.7%;
+    }
+    
+    .flex_container>div {
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .flex_container_game {
+        display: flex;
+        gap: 10px;
+    }
+}
+
