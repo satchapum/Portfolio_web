@@ -1,0 +1,61 @@
+body{
+    background-color: #D0E7D2;
+    overflow-x: hidden;
+}
+
+#brazilpicure{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit:cover;
+}
+
+.grid-container {
+	display: grid;
+    grid-template-columns: 30% 30% 50%;
+    grid-gap: 5%;
+}
+
+.grid-container > div{
+    color: #79AC78;
+    font-size: 100%;    
+}
+
+#header{
+    margin-left: 6%;
+	grid-column: 1 / span 3;
+
+}
+
+#header > h1{
+    font-size: 600%;
+}
+
+#introduction_picture{
+    margin-top: 6%;
+    margin-left: 25%;
+	grid-column: 1 / span 1;
+}
+
+#introduction{
+	grid-column: 2 / span 1;
+}
+
+#introduction > h2{
+    font-size: 300%;
+}
+
+#introduction > h3{
+    font-size: 200%;
+}
+#allwork{
+    margin-left: 60px;
+    grid-column: 1 / span 3;
+}
+
+#footer{
+    background-color: #618264;
+	grid-column: 1 / span 3;
+    margin-left: -10%;
+    height: 200%;
+}
