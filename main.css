@@ -259,9 +259,9 @@ li {
     }
 
     #allassignment {
-        margin-top: -150%;
-        margin-left: -15%;
-        grid-column: 2 / span 1;
+        margin-top: -10%;
+        margin-left: -1%;
+        grid-column: 1 / span 2;
     }
 
     #footer {
@@ -308,7 +308,7 @@ li {
 @media only screen and (max-width: 560px) {
     .grid-container {
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: auto;
     }
 
     .grid-container>div {
@@ -359,7 +359,6 @@ li {
     }
 
     #allassignment {
-        margin-top: -150%;
         margin-left: -15%;
         grid-column: 1 / span 1;
     }
