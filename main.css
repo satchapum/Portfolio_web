@@ -259,7 +259,6 @@ li {
     }
 
     #allassignment {
-        margin-top: -10%;
         margin-left: -1%;
         grid-column: 1 / span 2;
     }
@@ -354,12 +353,12 @@ li {
 
     #aboutme {
         margin-top: -1%;
-        margin-left: -6%;
+        margin-left: -3%;
         grid-column: 1 / span 1;
     }
 
     #allassignment {
-        margin-left: -15%;
+        margin-left: -10%;
         grid-column: 1 / span 1;
     }
 
