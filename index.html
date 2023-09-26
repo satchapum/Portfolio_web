@@ -9,8 +9,13 @@
 
 <body>
 	<div class="grid-container">
+
 		<div id="header">
-			<h1>My Portfolio</h1>
+			<u>
+				<div id="paddingHeading">
+					<h1>My Portfolio</h1>
+				</div>
+			</u>
 		</div>
 		<div id="introduction_picture">
 			<img id="brazilpicure" src="picture/brazil_Pic.jpg" alt="Satchapum pic">
@@ -21,8 +26,30 @@
 							<h2>Developer<h2>
 									<h3>My name is Satchapum krailertrat. I am
 										Students at King Mongkut's University of Technology Thonburi.
+										I study in the Faculty of Architecture and Design, majoring in Media Technology,
+										majoring in game development. Currently in 3rd year. My goal is to continue
+										studying in Japan when I graduate from here.
 									</h3>
 		</div>
+		<fieldset id="skill">
+			<legend>
+				<h1 id="myskillfont">My skill</h1>
+			</legend>
+			<ul>
+				<li><img id="icon" src="picture/maya.png">
+					<span>Maya</span>
+				</li>
+				<li><img id="icon" src="picture/csharp.png">
+					<span>C#</span>
+				</li>
+				<li><img id="icon" src="picture/javascript.jpg">
+					<span>Javascript</span>
+				</li>
+				<li><img id="icon" src="picture/unity.png">
+					<span>Unity</span>
+				</li>
+			</ul>
+		</fieldset>
 		<div id="aboutme">
 			<h1>About me: </h1>
 			<div class="flex_container">
@@ -41,14 +68,25 @@
 						My Interest
 					</h2>
 					<ul>
-						<li>DevOps Security</li>
-						<li>Back end Developer</li>
-						<li>Game Developer</li>
+						<div id="right">
+							<li>DevOps Security</li>
+							<li>Back end Developer</li>
+							<li>Game Developer</li>
+						</div>
 					</ul>
 				</div>
 			</div>
 		</div>
-		<div id="contact">
+		<div id="allassignment">
+			<h1>All assignment</h1>
+			<ul>
+				<li><a href="assignment4/recipe.html"><button>Recipe: Gluten Free General Tso’s Chicken</button></a></li>
+				<li><a href="assignment5/index.html"><button>Blog</button></a></li>
+				<li><a href="assignment6/register.html"><button>Register and Login</button></a></li>
+				<li><a href="assignment7/index.html"><button>Square game</button></a></li>
+			</ul>
+		</div>
+		<div id="footer">
 			<h2>
 				My Contact
 			</h2>
@@ -62,12 +100,8 @@
 						<h3>Instagram : Satcha_zil</h3>
 					</a></p>
 				</li>
-				
 			</ul>
-		</div>
-
-		<div id="footer">
-			test
+			</p>
 		</div>
 	</div>
 </body>
