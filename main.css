@@ -1,5 +1,6 @@
 body{
     background-color: #D0E7D2;
+    margin-inline-start: 20px;
     overflow-x: hidden;
 }
 
@@ -48,7 +49,12 @@ body{
 #introduction > h3{
     font-size: 200%;
 }
-#allwork{
+
+#skill{
+	grid-column: 3 / span 1;
+}
+
+#aboutme{
     margin-left: 60px;
     grid-column: 1 / span 3;
 }
@@ -57,5 +63,16 @@ body{
     background-color: #618264;
 	grid-column: 1 / span 3;
     margin-left: -10%;
-    height: 200%;
+    height: 30%;
+}
+
+.flex_container{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.flex_container > div{
+	border: 1px solid black;
+	margin-left: 10px;
+    margin-bottom: 10px;
 }
