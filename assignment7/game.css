@@ -8,8 +8,7 @@
     position: relative;
     width: 500px;
     height: 500px;
-    
-    border: 3px solid black;
+    border: 3px dashed rgb(255, 255, 255);
 }
 
 .square {
@@ -28,4 +27,26 @@
 
 .magenta{
     background-color: magenta; 
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+div{
+    color: white;
+}
+fieldset{
+    border-style: dotted;
+    border-radius: 20px;
+    border-width: 5px;
+}
+legend{
+    font-size: 50px;
+}
+input{
+    background-color: black;
+    border-radius: 20px;
+    border-style: solid ;
+    border-color: white;
+    color: white;
 }
